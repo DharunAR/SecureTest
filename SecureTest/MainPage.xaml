@@ -35,7 +35,7 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
-            <Button
+            <!--<Button
      x:Name="SoruceButn"
      Text="Secure"
      SemanticProperties.Hint="Counts the number of times you click"
@@ -47,7 +47,7 @@ x:Name="SorucePost"
 Text="SecurePost"
 SemanticProperties.Hint="Counts the number of times you click"
 Clicked="SecurePost"
-HorizontalOptions="Center" />
+HorizontalOptions="Center" />-->
 
         </VerticalStackLayout>
     </ScrollView>

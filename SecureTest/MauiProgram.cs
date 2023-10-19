@@ -19,7 +19,7 @@ namespace SecureTest
             builder.Services.AddTransient<ITokenCache, TokenCacheService>();
 
 #if DEBUG
-            builder.Logging.AddDebug();
+            //builder.Logging.AddDebug();
 #endif
 
             return builder.Build();
